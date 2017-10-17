@@ -1,0 +1,27 @@
+{
+  "name": "phonenumber",
+  "plural": "phonenumbers",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "countrycode": {
+      "type": "string",
+      "required": true
+    },
+    "areacode": {
+      "type": "string",
+      "required": true
+    },
+    "localcode": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
